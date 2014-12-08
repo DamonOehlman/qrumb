@@ -28,11 +28,7 @@ module.exports = function(opts) {
 
   function checkCurrent() {
     var parts = opts.uri && url.parse(opts.uri, true);
-
-    // check for a sync field in the uri
-    if (parts && parts.query[opts.idField]) {
-      qrumb.emit('activate', parts.query[opts.idField]);
-    }
+    qrumb.emit('activate', parts && parts.query[opts.idField]);
   }
 
   function display(id) {
