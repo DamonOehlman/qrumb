@@ -22,10 +22,8 @@
   "homepage": "https://github.com/DamonOehlman/qrum",
   "dependencies": {
     "cog": "^1.0.0",
-    "concat-stream": "~1.4.7",
     "cuid": "^1.2.4",
     "eventemitter3": "^0.1.6",
-    "observ": "^0.2.0",
-    "qr-image": "^2.0.0"
+    "qr.js": "0.0.0"
   }
 }
