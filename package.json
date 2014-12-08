@@ -1,6 +1,6 @@
 {
   "name": "qrumb",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Generate and display a QR code for the current browser url plus a generated 'syncid'",
   "main": "index.js",
   "stability": "experimental",
