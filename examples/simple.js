@@ -4,4 +4,4 @@ qrumb.on('activate', function(id) {
   console.log('activated: ' + id);
 });
 
-qrumb.display();
+document.body.appendChild(qrumb.generate());
