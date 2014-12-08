@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Generate and display a QR code for the current browser url plus a generated 'syncid'",
   "main": "index.js",
+  "stability": "experimental",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "gendocs": "gendocs > README.md"

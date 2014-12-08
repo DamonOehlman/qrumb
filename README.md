@@ -6,7 +6,7 @@ to help facilitate WebRTC desktop -> mobile application synchronization.
 
 [![NPM](https://nodei.co/npm/qrumb.png)](https://nodei.co/npm/qrumb/)
 
-
+[![experimental](https://img.shields.io/badge/stability-experimental-red.svg)](https://github.com/dominictarr/stability#experimental) 
 
 ## Examples Usage
 
