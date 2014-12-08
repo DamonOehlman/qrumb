@@ -1,5 +1,5 @@
 {
-  "name": "qrum",
+  "name": "qrumb",
   "version": "1.0.0",
   "description": "Generate and display a QR code for the current browser url plus a generated 'syncid'",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DamonOehlman/qrum.git"
+    "url": "https://github.com/DamonOehlman/qrumb.git"
   },
   "keywords": [
     "qrcode",
@@ -18,9 +18,9 @@
   "author": "Damon Oehlman <damon.oehlman@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DamonOehlman/qrum/issues"
+    "url": "https://github.com/DamonOehlman/qrumb/issues"
   },
-  "homepage": "https://github.com/DamonOehlman/qrum",
+  "homepage": "https://github.com/DamonOehlman/qrumb",
   "dependencies": {
     "cog": "^1.0.0",
     "cuid": "^1.2.4",
