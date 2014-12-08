@@ -7,7 +7,7 @@ var draw = require('./draw');
 /**
   # qrumb
 
-  An experiment using QR codes (yes, currently in suffering self loathing)
+  An experiment using QR codes (yes, currently suffering self loathing)
   to help facilitate WebRTC desktop -> mobile application synchronization.
 
   ## Examples Usage

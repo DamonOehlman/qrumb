@@ -1,17 +1,17 @@
 # qrumb
 
-An experiment using QR codes (yes, currently in suffering self loathing)
+An experiment using QR codes (yes, currently suffering self loathing)
 to help facilitate WebRTC desktop -> mobile application synchronization.
 
 
-[![NPM](https://nodei.co/npm/qrum.png)](https://nodei.co/npm/qrum/)
+[![NPM](https://nodei.co/npm/qrumb.png)](https://nodei.co/npm/qrumb/)
 
 
 
 ## Examples Usage
 
 ```js
-var qrumb = require('qrum')();
+var qrumb = require('qrumb')();
 
 qrumb.on('activate', function(id) {
   console.log('activated: ' + id);
