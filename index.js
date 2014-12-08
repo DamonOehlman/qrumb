@@ -25,16 +25,10 @@ module.exports = function(opts) {
   }
 
   function display(id) {
-    generate(id, function(err, image) {
-      if (err) {
-        return console.error('Could not generate image: ', err);
-      }
-
-      console.log(image);
-    });
+    var canvas = generate(id);
   }
 
-  function generate(id, callback) {
+  function generate(id) {
     var parts = opts.uri && url.parse(opts.uri, true);
 
     // if the id is not supplied, then init a default
@@ -45,15 +39,14 @@ module.exports = function(opts) {
 
     // if we have no url parts, then error out
     if (! parts) {
-      return callback(new Error('Unable to parse current or supplied uri: ', uri));
+      return;
     }
 
     // inject the id into the url
     parts.query[opts.idField] = id || require('cuid')();
 
     // generate the qrcode canvas
-    console.info('sending user to: ' + url.format(parts));
-    callback(null, draw(qr(url.format(parts))).toDataURL('image/' + opts.imageFormat));
+    return draw(qr(url.format(parts)));
   }
 
   qrumb.display = display;
