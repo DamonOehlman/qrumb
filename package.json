@@ -1,0 +1,31 @@
+{
+  "name": "qrum",
+  "version": "1.0.0",
+  "description": "Generate and display a QR code for the current browser url plus a generated 'syncid'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DamonOehlman/qrum.git"
+  },
+  "keywords": [
+    "qrcode",
+    "sync"
+  ],
+  "author": "Damon Oehlman <damon.oehlman@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamonOehlman/qrum/issues"
+  },
+  "homepage": "https://github.com/DamonOehlman/qrum",
+  "dependencies": {
+    "cog": "^1.0.0",
+    "concat-stream": "~1.4.7",
+    "cuid": "^1.2.4",
+    "eventemitter3": "^0.1.6",
+    "observ": "^0.2.0",
+    "qr-image": "^2.0.0"
+  }
+}
